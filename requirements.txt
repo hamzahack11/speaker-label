@@ -1,0 +1,14 @@
+Flask==2.3.2
+moviepy==1.0.3
+numpy==1.24.3
+openai_whisper==20230314
+pyannote.audio==2.1.1
+pyannote.core==5.0.0
+pyannote.database==5.0.1
+pyannote.metrics==3.2.1
+pyannote.pipeline==2.3
+pydub==0.25.1
+scikit_learn==1.2.2
+torch==2.0.1
+Werkzeug==2.3.6
+whisper==1.1.10
