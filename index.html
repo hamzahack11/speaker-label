@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EZAI Chatbot and Canvas Viewer</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Include Fabric.js library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.0/fabric.min.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <div class="column chatbot-column">
+            <h1 class="title">EZAI Chatbot</h1>
+            <div id="chat-container">
+                <div id="chat-history"></div>
+                <input type="text" id="input-msg" class="input-box" placeholder="Type your message...">
+                <button id="send-btn" class="send-button">Send</button>
+            </div>
+        </div>
+        <div class="column canvas-column">
+            <div id="canvas-container">
+                <canvas id="canvas" width="800" height="600"></canvas>
+                <input type="file" id="jsonFileInput" accept=".json">
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <!-- Include Fabric.js script here if not already included -->
+</body>
+</html>
